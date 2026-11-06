@@ -228,6 +228,70 @@
         "logs": [],
         "status": 0,
         "breakPoint": "None"
+      },
+      {
+        "name": "Get Web Element Property",
+        "type": "GetWebElementProperty",
+        "version": "0.0.3",
+        "originId": "ba1a81bb-bbec-590c-adce-f2d09a86ba48",
+        "actionId": "fd971f91-cfc2-410a-90c9-08198b55ea59",
+        "actionDefinitionActionId": "d38eb528-d9d5-44b1-9f87-f25fb77fe791",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "xpathTag",
+            "type": "String",
+            "value": "\u0022div\u0022"
+          },
+          {
+            "key": "xpathImage",
+            "type": "Image",
+            "value": "\u002201a1b006-5f88-76a4-87a1-f70e7b50c351\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022a\u0022"
+          },
+          {
+            "key": "xpath",
+            "type": "String",
+            "value": "\u0022/html/body/div[2]/div[3]/div[1]\u0022"
+          },
+          {
+            "key": "propertyName",
+            "type": "String",
+            "value": "\u0022title\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
       }
     ],
     "variableMappings": [],
