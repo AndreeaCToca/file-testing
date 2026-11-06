@@ -291,6 +291,236 @@
         "logs": [],
         "status": 0,
         "breakPoint": "None"
+      },
+      {
+        "name": "Add to Clipboard",
+        "type": "ClipboardPut",
+        "version": "1.0.4",
+        "originId": "34f0a204-dceb-5fc0-9af2-b93ead77d330",
+        "actionId": "d36c5304-f493-4a83-9df7-3d1d9b2bcef0",
+        "actionDefinitionActionId": "c660177e-0151-490f-a6ef-c1d70c75e631",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "variableType",
+            "type": "String",
+            "value": "\u0022Text\u0022"
+          },
+          {
+            "key": "data",
+            "type": "String",
+            "value": "\u0022testing\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Get Web Element",
+        "type": "GetWebElementsV2",
+        "version": "1.0.6",
+        "originId": "6a0040d8-9ea4-5675-8176-70d61aa2101f",
+        "actionId": "c76dcde3-3b14-4349-bacc-0313cd79858c",
+        "actionDefinitionActionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "xpathTag",
+            "type": "String",
+            "value": "\u0022textarea\u0022"
+          },
+          {
+            "key": "xpathImage",
+            "type": "Image",
+            "value": "\u002201a1b011-e07e-75e3-ad7d-42531f2e1b2a\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022a\u0022"
+          },
+          {
+            "key": "xpath",
+            "type": "String",
+            "value": "\u0022/html/body/div[2]/div[4]/form/div[1]/div/div[1]/div[2]/div[2]/textarea\u0022"
+          },
+          {
+            "key": "interaction",
+            "type": "String",
+            "value": "\u0022click\u0022"
+          },
+          {
+            "key": "retryCount",
+            "type": "Number",
+            "value": "0"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Clipboard Paste",
+        "type": "ClipboardPaste",
+        "version": "1.0.3",
+        "originId": "5dbb66ae-daf4-5bab-b073-59bd0c9a278d",
+        "actionId": "9333ddd3-b7fe-459b-bbe5-47eff8ead69c",
+        "actionDefinitionActionId": "2e6086d8-1d33-443f-b344-eb4eed5b71da",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "textToPaste",
+            "type": "String",
+            "value": "\u0022testing\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Key Input",
+        "type": "SpecialKeys",
+        "version": "1.0.4",
+        "originId": "5f6b3363-73dc-5afa-9aa6-0c789ca97488",
+        "actionId": "aea3e9cb-4942-44dc-b1f0-035c51a4fc9d",
+        "actionDefinitionActionId": "51f075fd-2e99-4eb9-92a2-2dab01f8ff92",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "charList",
+            "type": "Array",
+            "value": "[{\u0022key\u0022:\u00220\u0022,\u0022type\u0022:\u0022String\u0022,\u0022value\u0022:\u0022Enter\u0022}]"
+          },
+          {
+            "key": "keyPressType",
+            "type": "String",
+            "value": "\u0022press\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Close Browser",
+        "type": "BrowserClose",
+        "version": "1.0.2",
+        "originId": "f1df50d4-872e-50bf-b7c6-6547fa481be4",
+        "actionId": "82b69767-4462-4ffd-822e-e161a558741d",
+        "actionDefinitionActionId": "0d947388-14f6-4af5-af16-0db65d8fccac",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022a\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "continueWithoutWait",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
       }
     ],
     "variableMappings": [],
