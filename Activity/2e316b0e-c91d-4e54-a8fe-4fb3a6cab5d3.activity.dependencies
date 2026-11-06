@@ -20,6 +20,31 @@
         "definitionId": "d38eb528-d9d5-44b1-9f87-f25fb77fe791",
         "name": "Get Web Element Property",
         "version": "0.0.3"
+      },
+      {
+        "definitionId": "c660177e-0151-490f-a6ef-c1d70c75e631",
+        "name": "Add to Clipboard",
+        "version": "1.0.4"
+      },
+      {
+        "definitionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+        "name": "Get Web Element",
+        "version": "1.0.6"
+      },
+      {
+        "definitionId": "2e6086d8-1d33-443f-b344-eb4eed5b71da",
+        "name": "Clipboard Paste",
+        "version": "1.0.3"
+      },
+      {
+        "definitionId": "51f075fd-2e99-4eb9-92a2-2dab01f8ff92",
+        "name": "Key Input",
+        "version": "1.0.4"
+      },
+      {
+        "definitionId": "0d947388-14f6-4af5-af16-0db65d8fccac",
+        "name": "Close Browser",
+        "version": "1.0.2"
       }
     ]
   }
