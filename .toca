@@ -8,7 +8,8 @@
       "aliasKey": "bot-Nightly-Bot-0001",
       "aliasValue": "alias:bot-Nightly-Bot-0001",
       "referencedByResourceIds": [
-        "2e316b0e-c91d-4e54-a8fe-4fb3a6cab5d3"
+        "2e316b0e-c91d-4e54-a8fe-4fb3a6cab5d3",
+        "76a0413e-577c-4b98-920f-6464a6ced086"
       ]
     }
   ]
