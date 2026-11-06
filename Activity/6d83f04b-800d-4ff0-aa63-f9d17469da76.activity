@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "id": "6d83f04b-800d-4ff0-aa63-f9d17469da76",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "description": "new test",
+    "botIds": [
+      "alias:bot-Nightly-Bot-0001"
+    ],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Open Browser",
+        "type": "BrowserCombo",
+        "version": "1.0.5",
+        "originId": "ab7eaad2-9fd8-574c-b787-ec160074260c",
+        "actionId": "93b7e406-d68c-49e3-a247-1c14393b9a52",
+        "actionDefinitionActionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "browserType",
+            "type": "String",
+            "value": "\u0022Chrome\u0022"
+          },
+          {
+            "key": "url",
+            "type": "String",
+            "value": "\u0022https://google.com\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022b\u0022"
+          },
+          {
+            "key": "maximize",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "focusBrowser",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "continueWithoutWait",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "extension",
+            "type": "String",
+            "value": "\u0022\u0022"
+          },
+          {
+            "key": "alertManagement",
+            "type": "String",
+            "value": "\u0022accept\u0022"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Image Search",
+        "type": "ImageSearch",
+        "version": "1.0.6",
+        "originId": "5799964b-449e-5f30-b85a-78614d31ca9e",
+        "actionId": "435f4473-011f-4717-8fd1-8691635a8fd6",
+        "actionDefinitionActionId": "9cdd96ce-6264-4733-8c9a-6277729df3d9",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "imageBox",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:687,\u0022y\u0022:857,\u0022w\u0022:272,\u0022h\u0022:82}"
+          },
+          {
+            "key": "image",
+            "type": "Image",
+            "value": "\u002201a1b059-011f-73c4-9d8b-0b021639b828\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:588,\u0022y\u0022:743,\u0022w\u0022:664,\u0022h\u0022:279}"
+          },
+          {
+            "key": "colorMatch",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "templateThreshold",
+            "type": "Number",
+            "value": "0.9"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Image Click",
+        "type": "ImageClick",
+        "version": "1.0.10",
+        "originId": "c3df3fb3-a748-513c-903e-dfe196bd3b51",
+        "actionId": "c04fbd29-6163-47b7-b177-64688998ce6b",
+        "actionDefinitionActionId": "7c8485d8-788b-4c9c-b60d-81df1715dc80",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "image",
+            "type": "Image",
+            "value": "\u002201a1b05a-12c9-771e-9f0e-5722a4242a8e\u0022"
+          },
+          {
+            "key": "imageBox",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:759,\u0022y\u0022:888,\u0022w\u0022:153,\u0022h\u0022:18}"
+          },
+          {
+            "key": "regionArea",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:653,\u0022y\u0022:808,\u0022w\u0022:612,\u0022h\u0022:212}"
+          },
+          {
+            "key": "clickType",
+            "type": "String",
+            "value": "\u0022Left\u0022"
+          },
+          {
+            "key": "colorMatch",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "templateThreshold",
+            "type": "Number",
+            "value": "0.9"
+          },
+          {
+            "key": "delay",
+            "type": "Number",
+            "value": "0"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Get Web Element Property",
+        "type": "GetWebElementProperty",
+        "version": "0.0.3",
+        "originId": "ba1a81bb-bbec-590c-adce-f2d09a86ba48",
+        "actionId": "2ea70be5-f96a-4046-9a94-311cb35c1a1d",
+        "actionDefinitionActionId": "d38eb528-d9d5-44b1-9f87-f25fb77fe791",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "xpathTag",
+            "type": "String",
+            "value": "\u0022div\u0022"
+          },
+          {
+            "key": "xpathImage",
+            "type": "Image",
+            "value": "\u002201a1b05a-5d32-701b-b73b-37c370725993\u0022"
+          },
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022b\u0022"
+          },
+          {
+            "key": "xpath",
+            "type": "String",
+            "value": "\u0022/html/body/div[2]/div[3]/div\u0022"
+          },
+          {
+            "key": "propertyName",
+            "type": "String",
+            "value": "\u0022title\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      },
+      {
+        "name": "Close Browser",
+        "type": "BrowserClose",
+        "version": "1.0.2",
+        "originId": "f1df50d4-872e-50bf-b7c6-6547fa481be4",
+        "actionId": "f9653d74-e6d2-4f2f-a4c4-94a0ffd1cc5a",
+        "actionDefinitionActionId": "0d947388-14f6-4af5-af16-0db65d8fccac",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "browserAlias",
+            "type": "String",
+            "value": "\u0022b\u0022"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "continueWithoutWait",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "resourceId": "6d83f04b-800d-4ff0-aa63-f9d17469da76",
+    "name": "new"
+  }
+}
