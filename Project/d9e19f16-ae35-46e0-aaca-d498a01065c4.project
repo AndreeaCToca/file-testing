@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "id": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "description": "testing",
+    "deactivated": false,
+    "actionGroups": [],
+    "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "resourceId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "name": "automation"
+  }
+}

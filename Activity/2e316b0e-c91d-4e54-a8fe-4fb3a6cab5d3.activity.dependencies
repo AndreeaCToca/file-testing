@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "actionDetails": [
+      {
+        "definitionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
+        "name": "Open Browser",
+        "version": "1.0.5"
+      },
+      {
+        "definitionId": "7c8485d8-788b-4c9c-b60d-81df1715dc80",
+        "name": "Image Click",
+        "version": "1.0.10"
+      },
+      {
+        "definitionId": "9cdd96ce-6264-4733-8c9a-6277729df3d9",
+        "name": "Image Search",
+        "version": "1.0.6"
+      }
+    ]
+  }
+}
