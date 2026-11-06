@@ -7,8 +7,9 @@
   "content": {
     "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
     "description": "new test",
-    "botIds": [],
-    "botPoolId": "alias:pool-Andreea",
+    "botIds": [
+      "alias:bot-Nightly-Bot-0001"
+    ],
     "version": 1,
     "actions": [
       {
@@ -36,7 +37,7 @@
           {
             "key": "browserAlias",
             "type": "String",
-            "value": "\u0022b\u0022"
+            "value": "\u0022c\u0022"
           },
           {
             "key": "maximize",

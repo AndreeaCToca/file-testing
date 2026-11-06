@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "actionDetails": [
+      {
+        "definitionId": "4afc0589-d3bf-49d3-80e3-240be2146dcf",
+        "name": "Delay",
+        "version": "1.0.1"
+      }
+    ]
+  }
+}

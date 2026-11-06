@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "id": "338d4f8b-2398-442d-8967-763a5ff7a042",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "jobName": "test schedule",
+    "jobId": "338d4f8b-2398-442d-8967-763a5ff7a042",
+    "workflowId": "f4d9dc22-7720-4d64-9da3-3a3d84bc3619",
+    "jobArgs": [],
+    "cron": "3-59/5 * * * *",
+    "startDateTime": "2026-11-06T13:08:00Z",
+    "oneOffDateTime": "0001-01-01T00:00:00Z",
+    "unitOfInterval": 1,
+    "interval": 5,
+    "enabled": true,
+    "deactivated": false,
+    "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "resourceId": "338d4f8b-2398-442d-8967-763a5ff7a042",
+    "name": "test schedule"
+  }
+}

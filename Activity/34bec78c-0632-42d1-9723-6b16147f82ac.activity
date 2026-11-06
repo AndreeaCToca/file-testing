@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "34bec78c-0632-42d1-9723-6b16147f82ac",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
+    "description": "sss",
+    "botIds": [],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Delay",
+        "type": "Delay",
+        "version": "1.0.1",
+        "originId": "f36d9bfd-bccd-553d-b9a3-e634d9ecba37",
+        "actionId": "27830d66-c120-46ab-915f-c88ada7d52ea",
+        "actionDefinitionActionId": "4afc0589-d3bf-49d3-80e3-240be2146dcf",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "delay",
+            "type": "Number",
+            "value": "2"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None"
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
+    "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "resourceId": "34bec78c-0632-42d1-9723-6b16147f82ac",
+    "name": "test"
+  }
+}

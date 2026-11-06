@@ -4,13 +4,20 @@
   "resources": [],
   "environmentMappings": [
     {
+      "resourceType": "Bot",
+      "aliasKey": "bot-Nightly-Bot-0001",
+      "aliasValue": "alias:bot-Nightly-Bot-0001",
+      "referencedByResourceIds": [
+        "6d83f04b-800d-4ff0-aa63-f9d17469da76"
+      ]
+    },
+    {
       "resourceType": "BotPool",
       "aliasKey": "pool-Andreea",
       "aliasValue": "alias:pool-Andreea",
       "referencedByResourceIds": [
         "2e316b0e-c91d-4e54-a8fe-4fb3a6cab5d3",
-        "76a0413e-577c-4b98-920f-6464a6ced086",
-        "6d83f04b-800d-4ff0-aa63-f9d17469da76"
+        "76a0413e-577c-4b98-920f-6464a6ced086"
       ]
     }
   ]
