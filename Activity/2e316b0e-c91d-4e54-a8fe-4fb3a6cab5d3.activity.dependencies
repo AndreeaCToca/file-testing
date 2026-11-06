@@ -15,6 +15,11 @@
         "definitionId": "9cdd96ce-6264-4733-8c9a-6277729df3d9",
         "name": "Image Search",
         "version": "1.0.6"
+      },
+      {
+        "definitionId": "d38eb528-d9d5-44b1-9f87-f25fb77fe791",
+        "name": "Get Web Element Property",
+        "version": "0.0.3"
       }
     ]
   }
