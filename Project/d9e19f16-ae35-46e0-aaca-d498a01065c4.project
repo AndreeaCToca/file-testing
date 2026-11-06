@@ -8,7 +8,11 @@
     "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
     "description": "testing",
     "deactivated": false,
-    "actionGroups": [],
+    "actionGroups": [
+      "8170c24e-b7f3-4395-b87a-16f93f40a841",
+      "9a776a3a-bed5-48e6-b2ca-0b489f50d74f",
+      "ef3b838c-5ed5-450e-8414-f71e30f5ecb3"
+    ],
     "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
     "resourceId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
     "name": "automation"
