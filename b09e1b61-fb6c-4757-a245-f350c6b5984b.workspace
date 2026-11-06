@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "id": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "id": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "accent": "#70f334",
+    "route": "file-test",
+    "description": "testing file after pulling",
+    "cmsEnabled": false,
+    "versioning": true,
+    "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "resourceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
+    "name": "File test"
+  }
+}
