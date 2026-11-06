@@ -7,9 +7,8 @@
   "content": {
     "projectId": "d9e19f16-ae35-46e0-aaca-d498a01065c4",
     "description": "test",
-    "botIds": [
-      "alias:bot-Nightly-Bot-0001"
-    ],
+    "botIds": [],
+    "botPoolId": "alias:pool-Andreea",
     "version": 1,
     "actions": [
       {
