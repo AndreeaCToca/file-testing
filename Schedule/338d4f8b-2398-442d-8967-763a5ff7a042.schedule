@@ -15,7 +15,7 @@
     "oneOffDateTime": "0001-01-01T00:00:00Z",
     "unitOfInterval": 1,
     "interval": 5,
-    "enabled": false,
+    "enabled": true,
     "deactivated": false,
     "workspaceId": "b09e1b61-fb6c-4757-a245-f350c6b5984b",
     "resourceId": "338d4f8b-2398-442d-8967-763a5ff7a042",
